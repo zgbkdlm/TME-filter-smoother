@@ -17,6 +17,7 @@ This repo gives a simple Matlab illustration of using TME Gaussian filter and sm
 ## About the Model
 Considering a non-linear Continuous discrete state-space model (Duffing van der Pol)
 ![](figs/dyn.svg)
+
 ![](figs/obs.svg)
 with initial value `x_0 = [-3, 0]`. 
 
