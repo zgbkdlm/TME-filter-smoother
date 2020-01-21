@@ -36,7 +36,7 @@ Parameters of simulation
 We simply consider a linear measurement model because TME is only concerned with the non-linearity in continuous model. For some examples on non-linear measurement models, you can check our paper [1].
 
 ## How to Run
-Simply open and run `TME_GHKF.m` (Gauss-Hermite) or `TME_CKF.m` (spherical cubature), or `TME_UKF` (unscented transform)
+Simply open and run `example_duffing.m`. There are three functions `TME_GHKF.m` (Gauss-Hermite), `TME_CKF.m` (spherical cubature), and `TME_UKF` (unscented transform) available for TME with different sigma point methods.
 
 ![](figs/duffing_result.svg)
 
