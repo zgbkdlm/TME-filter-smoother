@@ -1,8 +1,8 @@
 # Taylor Moment Expansion (TME) Gaussian Filter and Smoother
 
-This repo gives a simple Matlab illustration of using TME Gaussian filter and smoother on a Duffing van der Pol model.
+This repo gives a simple Matlab illustration of TME Gaussian filter and smoother on a Duffing van der Pol model.
 
-**Please cite the following paper**
+**Please cite the paper as follows**
 ```
 @article{zhengzTME2019,
 	title = {{T}aylor Moments Expansion for Continuous-Discrete {G}aussian Filtering and Smoothing},
