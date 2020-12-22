@@ -8,8 +8,8 @@ This repo gives a simple Matlab illustration of TME Gaussian filter and smoother
 	title = {{T}aylor Moments Expansion for Continuous-Discrete {G}aussian Filtering},
 	journal = {IEEE Transactions on Automatic Control},
 	author = {Zheng Zhao, Toni Karvonen, Roland Hostettler, and Simo S\"{a}rkk\"{a}},
-	volume = {},
-	number = {},
+	volume = {66},
+	number = {12},
 	pages = {},
 	year = {2021},
 	note = {In press}
