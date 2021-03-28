@@ -23,8 +23,9 @@ function [MM, PP, UKF_MS, UKF_PS] = TME_UKF(m0, P0, a, Sigma, as, H, R, Y, dt, i
 %   
 % References:
 %
-%     [1] Zheng Z., Toni K., Roland H., and Simo S., Taylor Moment Expansion
-%     for Continuous-discrete Filtering and Smoothing. 
+%     [1] Zheng Zhao, Toni Karvonen, Roland Hostettler, Simo Särkkä, 
+%         Taylor Moment Expansion for Continuous-discrete Filtering. 
+%         IEEE Transactions on Automatic Control. 
 %
 % Zheng Zhao @ 2019 Aalto University
 % zz@zabemon.com 

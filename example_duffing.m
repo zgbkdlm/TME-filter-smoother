@@ -63,13 +63,12 @@ end
 TME_order = 3;
 
 % Give 1st, 2nd moment and covariance (symbolic)
-[a, Sigma, B] = tools.TME(xx, ff, LL, QQ, ...
-                          dt_sym, TME_order, 'simplify');
+[a, Sigma] = tools.TME(xx, ff, LL, QQ, ...
+                       dt_sym, TME_order, 'simplify');
 as = xx * a';  % For smoother use.
 
 % Convery symbolic to anonoymous function
 a = matlabFunction(a, 'Vars', {xx, dt_sym});
-B = matlabFunction(B, 'Vars', {xx, dt_sym});
 Sigma = matlabFunction(Sigma, 'Vars', {xx, dt_sym});
 as = matlabFunction(as, 'Vars', {xx, dt_sym});
 
@@ -104,7 +103,6 @@ grid on
 ax = gca;
 ax.GridLineStyle = '--';
 ax.GridAlpha = 0.2;
-
 
 rmse_filter = tools.RMSE(X, MM);
 rmse_smoother = tools.RMSE(X, MS);
