@@ -1,5 +1,7 @@
 # Taylor Moment Expansion (TME) Gaussian Filter and Smoother
 
+**This repository is no longer maintained. Please find https://github.com/zgbkdlm/tme intead.**
+
 This repo gives a simple Matlab illustration of TME Gaussian filter and smoother on a Duffing van der Pol model.
 
 **Please cite the paper as follows**
